@@ -15,6 +15,10 @@
 		DF9BF5F72A91FC5A009B3AAF /* gb_hw5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF5F62A91FC5A009B3AAF /* gb_hw5UITests.swift */; };
 		DF9BF5F92A91FC5A009B3AAF /* gb_hw5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF5F82A91FC5A009B3AAF /* gb_hw5UITestsLaunchTests.swift */; };
 		DF9BF6082A91FCB5009B3AAF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DF9BF6072A91FCB5009B3AAF /* .gitignore */; };
+		DF9BF60A2A920C62009B3AAF /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF6092A920C62009B3AAF /* NewsView.swift */; };
+		DF9BF60C2A921129009B3AAF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF60B2A921129009B3AAF /* NetworkService.swift */; };
+		DF9BF60E2A92125B009B3AAF /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF60D2A92125B009B3AAF /* NewsModel.swift */; };
+		DF9BF6102A921AE8009B3AAF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BF60F2A921AE8009B3AAF /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		DF9BF5F62A91FC5A009B3AAF /* gb_hw5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gb_hw5UITests.swift; sourceTree = "<group>"; };
 		DF9BF5F82A91FC5A009B3AAF /* gb_hw5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gb_hw5UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DF9BF6072A91FCB5009B3AAF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DF9BF6092A920C62009B3AAF /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		DF9BF60B2A921129009B3AAF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DF9BF60D2A92125B009B3AAF /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		DF9BF60F2A921AE8009B3AAF /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 			children = (
 				DF9BF5DB2A91FC59009B3AAF /* gb_hw5App.swift */,
 				DF9BF5DD2A91FC59009B3AAF /* ContentView.swift */,
+				DF9BF6092A920C62009B3AAF /* NewsView.swift */,
+				DF9BF60B2A921129009B3AAF /* NetworkService.swift */,
+				DF9BF60D2A92125B009B3AAF /* NewsModel.swift */,
+				DF9BF60F2A921AE8009B3AAF /* Helper.swift */,
 				DF9BF6072A91FCB5009B3AAF /* .gitignore */,
 				DF9BF5DF2A91FC5A009B3AAF /* Assets.xcassets */,
 				DF9BF5E12A91FC5A009B3AAF /* Preview Content */,
@@ -261,8 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9BF60A2A920C62009B3AAF /* NewsView.swift in Sources */,
 				DF9BF5DE2A91FC59009B3AAF /* ContentView.swift in Sources */,
+				DF9BF60C2A921129009B3AAF /* NetworkService.swift in Sources */,
 				DF9BF5DC2A91FC59009B3AAF /* gb_hw5App.swift in Sources */,
+				DF9BF60E2A92125B009B3AAF /* NewsModel.swift in Sources */,
+				DF9BF6102A921AE8009B3AAF /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
